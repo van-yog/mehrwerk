@@ -1,0 +1,53 @@
+* {
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:visited {
+    text-decoration: none;
+  }
+
+  &:link {
+    text-decoration: none;
+  }
+
+  &:active {
+    text-decoration: none;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  outline: none;
+  border: unset;
+  font-family: 'Poppins';
+}
+
+input {
+  font-family: 'Poppins';
+}
+
+html {
+  color: $white;
+  font-family: 'Poppins';
+  background: $bg-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
