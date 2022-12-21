@@ -33,7 +33,7 @@ const useShop = () => {
       }
     };
     fetchData();
-  }, []);
+  }, [location.pathname]);
   return { shop, error };
 };
 
