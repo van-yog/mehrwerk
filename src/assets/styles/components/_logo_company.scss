@@ -1,0 +1,16 @@
+.logo_company {
+  &__no_logo {
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 300px;
+      max-height: 225px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+  }
+}

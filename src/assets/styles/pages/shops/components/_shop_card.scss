@@ -1,0 +1,26 @@
+.shop_card {
+  min-width: 300px;
+  background-color: $bg-color-dark;
+  border-radius: 10px;
+  overflow: hidden;
+
+  &__info {
+    padding: 10px 20px 30px;
+    position: relative;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+  &__link {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline !important;
+    @include transition;
+
+    &:hover {
+      color: #0959aa;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.logo {
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__img {
+    width: 40px;
+  }
+
+  &__text {
+    color: $black;
+    font-size: 24px;
+  }
+}

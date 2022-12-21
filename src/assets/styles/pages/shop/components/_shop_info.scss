@@ -1,0 +1,30 @@
+.shop_info {
+  &__title {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+
+  &__description {
+    margin-top: 20px;
+  }
+
+  &__logo_wrapper {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+
+  &__categories {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    &_item {
+      padding: 5px 10px;
+      border-radius: 10px;
+      background-color: $bg-color-dark;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.access_token {
+  margin-top: 20px;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &__response {
+    margin-top: 10px;
+    word-break: break-word;
+  }
+}

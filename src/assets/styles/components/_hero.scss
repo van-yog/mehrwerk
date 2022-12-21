@@ -1,7 +1,9 @@
 .hero {
-  &__title {
-  }
+  max-width: $container;
+  margin: 0 auto;
 
-  &__text {
+  &__title {
+    font-size: 36px;
+    margin-bottom: 20px;
   }
 }

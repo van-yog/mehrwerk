@@ -1,0 +1,24 @@
+.back_button {
+  padding: 10px 20px;
+  font-weight: 600;
+  display: flex;
+  width: fit-content;
+  gap: 5px;
+  align-items: center;
+  background-color: #1767b8;
+  border-radius: 16px;
+  box-shadow: 3px 3px 3px 0px rgb(0 0 0 / 0%);
+  transition: 0.3s all ease-in-out;
+  color: $white;
+
+  &:hover {
+    cursor: pointer;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  span {
+    font-size: 20px;
+    line-height: 0;
+  }
+}
