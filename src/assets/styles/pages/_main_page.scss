@@ -1,0 +1,15 @@
+.main_page {
+  &__link {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline !important;
+    @include transition;
+
+    &:hover {
+      color: #0959aa;
+    }
+    &_wrapper {
+      margin-top: 20px;
+    }
+  }
+}
