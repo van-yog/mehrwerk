@@ -4,8 +4,10 @@ import Hero from '../../components/Hero';
 const MainPage = () => {
   return (
     <div>
-      MainPage
-      <Hero title="hello" text="lorem ipsum" />
+      <Hero
+        title="Welcome to the main page"
+        text="Below is a short video presentation that will introduce you to me and my application."
+      />
     </div>
   );
 };
